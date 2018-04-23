@@ -1,7 +1,7 @@
 <template>
   <div class="card bg-light" v-bind:class="[correct ? 'border-success correct' : 'border-danger incorrect']">
     <h5 class="card-header d-flex justify-content-between">
-      {{ tweet.user.screen_name }}
+      @{{ tweet.user.screen_name }}
     </h5>
     <div class="card-body">
       <p class="card-text">

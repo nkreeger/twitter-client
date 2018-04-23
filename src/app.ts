@@ -9,7 +9,8 @@ import tweet from './tweet';
 import Tweet from './Tweet.vue';
 
 const MAX_TWEETS = 40;  // 3 each row.
-const SOCKET = 'http://localhost:8002/';
+// const SOCKET = 'http://localhost:8002/';
+const SOCKET = 'http://kreeger.mtv.corp.google.com:8002/';
 
 export type User = {
   id: number,
